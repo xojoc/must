@@ -23,5 +23,5 @@ See [godoc](https://godoc.org/xojoc.pw/must) for the complete documentation.
 # [Donate!](https://liberapay.com/xojoc)
 
 # License
-*bitset* is [Free Software](https://www.gnu.org/philosophy/free-sw.html) and is released under the Apache 2.0 license. No warranty.
+*MUST* is [Free Software](https://www.gnu.org/philosophy/free-sw.html) and is released under the Apache 2.0 license. No warranty.
 
