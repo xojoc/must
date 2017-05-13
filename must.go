@@ -47,6 +47,10 @@ func Create(path string) *os.File {
 	return file
 }
 
+func Remove(path string) {
+	OK(os.Remove(path))
+}
+
 func ReadImage(path string) image.Image {
 	img, _, err := image.Decode(bytes.NewBuffer(ReadFile(path)))
 	OK(err)
