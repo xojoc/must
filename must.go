@@ -1,4 +1,4 @@
-// Written by https://xojoc.pw. Apache license 2.0
+// Written by https://xojoc.pw. Apache license 2.0. No warranty.
 
 // Package must provides "must" variants of common functions.
 //
