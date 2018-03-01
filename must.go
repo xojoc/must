@@ -7,6 +7,7 @@ package must // import "xojoc.pw/must"
 
 import (
 	"bytes"
+	"encoding/gob"
 	"fmt"
 	"image"
 	"image/png"
@@ -38,6 +39,9 @@ func Open(path string) *os.File {
 }
 
 func Close(c io.Closer) {
+	if c == nil {
+		return
+	}
 	OK(c.Close())
 }
 
@@ -84,4 +88,9 @@ func URL(s string) *url.URL {
 	u, err := url.Parse(s)
 	OK(err)
 	return u
+}
+
+func GobDecode(b []byte, i interface{}) {
+	dec := gob.NewDecoder(bytes.NewReader(b))
+	OK(dec.Decode(i))
 }
