@@ -18,10 +18,9 @@ if something fails open an issue.
 See [godoc](https://godoc.org/xojoc.pw/must) for the complete documentation.
 
 # Who?
-*MUST* was written by Alexandru Cojocaru (https://xojoc.pw).
+*MUST* was written by [Alexandru Cojocaru](https://xojoc.pw).
 
-# [Donate!](https://liberapay.com/xojoc)
+# [Donate!](https://xojoc.pw/donate)
 
 # License
 *MUST* is [Free Software](https://www.gnu.org/philosophy/free-sw.html) and is released under the Apache 2.0 license. No warranty.
-
